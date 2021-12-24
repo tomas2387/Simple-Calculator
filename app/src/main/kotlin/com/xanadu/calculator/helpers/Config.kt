@@ -1,4 +1,4 @@
-package com.simplemobiletools.calculator.helpers
+package com.xanadu.calculator.helpers
 
 import android.content.Context
 import com.simplemobiletools.commons.helpers.BaseConfig

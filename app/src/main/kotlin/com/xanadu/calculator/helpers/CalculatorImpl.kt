@@ -1,7 +1,7 @@
-package com.simplemobiletools.calculator.helpers
+package com.xanadu.calculator.helpers
 
 import android.content.Context
-import com.simplemobiletools.calculator.R
+import com.xanadu.calculator.R
 import com.simplemobiletools.commons.extensions.toast
 import net.objecthunter.exp4j.ExpressionBuilder
 

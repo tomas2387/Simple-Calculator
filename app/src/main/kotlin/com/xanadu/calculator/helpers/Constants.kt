@@ -1,4 +1,4 @@
-package com.simplemobiletools.calculator.helpers
+package com.xanadu.calculator.helpers
 
 const val DIGIT = "digit"
 const val EQUALS = "equals"

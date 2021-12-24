@@ -1,4 +1,4 @@
-package com.simplemobiletools.calculator.helpers
+package com.xanadu.calculator.helpers
 
 import java.text.DecimalFormat
 import java.text.DecimalFormatSymbols
