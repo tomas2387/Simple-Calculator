@@ -1,6 +1,4 @@
 # Simple Calculator
-<img alt="Logo" src="fastlane/metadata/android/en-US/images/icon.png" width="120" />
-
 I wanted a calculator.    
 A calculator.   
 
