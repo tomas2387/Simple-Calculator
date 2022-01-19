@@ -1,6 +1,11 @@
 Changelog
 ==========
 
+Version 5.5.3 *(2021-12-24)*
+----------------------------
+
+ * Removed all code that was not from the calculator. I want just a calculator.
+
 Version 5.5.2 *(2021-03-27)*
 ----------------------------
 
