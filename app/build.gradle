@@ -1,6 +1,5 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
-apply plugin: 'kotlin-android-extensions'
 
 def keystorePropertiesFile = rootProject.file("keystore.properties")
 def keystoreProperties = new Properties()
@@ -10,7 +9,9 @@ if (keystorePropertiesFile.exists()) {
 
 android {
     compileSdkVersion 33
-
+    buildFeatures {
+        viewBinding true
+    }
     defaultConfig {
         applicationId "com.xanadu.calculator"
         minSdkVersion 21
@@ -47,15 +48,16 @@ android {
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
-
-    lintOptions {
-        checkReleaseBuilds false
+    namespace 'com.xanadu.calculator'
+    lint {
         abortOnError false
+        checkReleaseBuilds false
     }
+
 }
 
 dependencies {
-    implementation 'com.simplemobiletools:commons:5.34.25'
+    implementation "com.simplemobiletools:commons:$commonsVersion"
     implementation 'me.grantland:autofittextview:0.2.1'
     implementation 'net.objecthunter:exp4j:0.4.8'
 }
